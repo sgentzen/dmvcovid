@@ -7,7 +7,7 @@ param(
 Write-Host "Downloading $sourcefile"
 try {
   ## combine url and sourcefile, download that.
-  Invoke-Webcommand -uri "$sourceUrl/$sourcefile" $destinationFile
+  Invoke-WebRequest -uri "$sourceUrl/$sourcefile" $destinationFile
 }
 catch {
   Write-Host "Error downloading $sourceFile from $sourceUrl"
