@@ -1,7 +1,7 @@
 param(
-  [string]sourceUrl
-  [string]sourceFile
-  [string]destinationFile
+  [string]$sourceUrl
+  [string]$sourceFile
+  [string]$destinationFile
 )
 
 Write-Host "Downloading $sourcefile"
