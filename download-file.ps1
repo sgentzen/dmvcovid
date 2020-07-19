@@ -1,6 +1,6 @@
 param(
-  [string]$sourceUrl
-  [string]$sourceFile
+  [string]$sourceUrl,
+  [string]$sourceFile,
   [string]$destinationFile
 )
 
